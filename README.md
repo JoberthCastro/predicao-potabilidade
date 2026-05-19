@@ -151,27 +151,6 @@ Execute as células **em ordem**. O treinamento completo (carga dos dados, 150 *
 Os artefatos são gravados automaticamente em `outputs/`. A célula `WaterQualityPipeline().run()` existe para reexecução programática ponta a ponta; ao rodar o notebook sequencialmente, as seções 1–5 já executam o fluxo — evite chamar `run()` em seguida para não reprocessar a base inteira.
 
 ---
-
-## Referências Bibliográficas
-
-1. **Karim, M. R., et al. (2025).** *A Comprehensive Dataset of Surface Water Quality Spanning 1940-2023 for Empirical and ML Adopted Research.* Disponível em: https://doi.org/10.6084/m9.figshare.27800394
-
-2. **Santos, L. A. S.; Polo, A. C. (2025).** *Previsão da Qualidade da Água: Uma Aplicação do Modelo de Aprendizado Supervisionado XGBoost.* Revista Mirante, v. 18, n. 1, p. 17-31.
-
-3. **Chen, T.; Guestrin, C. (2016).** *XGBoost: A Scalable Tree Boosting System.* Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining.
-
-4. **Lai, M.; et al. (2023).** *Tree-Based Machine Learning Models with Optuna.*
-
-5. **Brasil. Ministério da Saúde.** Portaria GM/MS nº 888, de 4 de maio de 2021 — estabelece os procedimentos de controle e de vigilância da qualidade da água para consumo humano.
-
----
-
 ## Licença e uso
 
 Projeto acadêmico de TCC. Ao reutilizar o código ou os resultados, cite o dataset original (Karim et al., 2025) e as referências metodológicas acima. O modelo **não substitui** análises laboratoriais oficiais nem laudos de vigilância sanitária.
-
----
-
-## Autor
-
-Repositório preparado para divulgação do Trabalho de Conclusão de Curso. Ajuste a seção **Autor** com seu nome, instituição e orientador antes da publicação no GitHub.
