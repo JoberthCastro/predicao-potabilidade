@@ -1,0 +1,33 @@
+{
+  "accuracy": 0.9811137278198573,
+  "precision_per_class": {
+    "0": 0.9618300050021162,
+    "1": 0.9884538961387681
+  },
+  "recall_per_class": {
+    "0": 0.9694270644811004,
+    "1": 0.9855141597141772
+  },
+  "f1_per_class": {
+    "0": 0.9656135923205191,
+    "1": 0.9869818389218886
+  },
+  "f1_macro": 0.9762977156212038,
+  "auc_roc": 0.9985698893973265,
+  "confusion": [
+    [
+      149982,
+      4730
+    ],
+    [
+      5952,
+      404932
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.97      0.97    154712\n           1       0.99      0.99      0.99    410884\n\n    accuracy                           0.98    565596\n   macro avg       0.98      0.98      0.98    565596\nweighted avg       0.98      0.98      0.98    565596\n",
+  "compliance": {
+    "Acur\u00e1cia >= 0.90": "OK",
+    "AUC-ROC >= 0.90": "OK",
+    "Recall N\u00e3o Pot\u00e1vel >= 0.85": "OK"
+  }
+}
